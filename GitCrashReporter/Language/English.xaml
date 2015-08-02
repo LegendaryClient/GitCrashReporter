@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="Title">Git Crash Reporter</system:String>
+    <system:String x:Key="CrashNote">Oh no. Sightstone has crashed!</system:String>
+    <system:String x:Key="Send">Send Crash Report</system:String>
+    <system:String x:Key="Username">Github Username</system:String>
+    <system:String x:Key="Password">Github Password</system:String>
+    <system:String x:Key="PublicWarn">The log is public. It is recommended to not allow your username to be sent</system:String>
+    <system:String x:Key="AllowSendUser">Allow my username to be in the log sent</system:String>
+    <system:String x:Key="AllowSendRegion">Allow my region to be in the log sent</system:String>
+    <system:String x:Key="AllowWindowsSend">Allow information about my OS to be in the log</system:String>
+    <system:String x:Key="AllowComputerSend">Allow information about my computer to be in the log</system:String>
+    <system:String x:Key="ThankYou">Thank you!</system:String>
+    <system:String x:Key="ThankYouNote">Thank you for reporting the error. You have helped making Sightstone less buggy</system:String>
+    <system:String x:Key="Bugs">Help Sightstone out!</system:String>
+    <system:String x:Key="CloseWarn">You have not sent in the log. Are you sure you want to exit?</system:String>
+</ResourceDictionary>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="GitCrashReporter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GitCrashReporter"
+        mc:Ignorable="d"
+        Title="{DynamicResource Title}" Height="400" Width="525">
+    <Grid>
+        <Button x:Name="SendButton" Content="{DynamicResource Send}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Width="517" Height="30"/>
+        <Label x:Name="CrashNote" Content="{DynamicResource CrashNote}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="517" Height="26"/>
+
+    </Grid>
+</Window>
